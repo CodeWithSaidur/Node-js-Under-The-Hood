@@ -1,7 +1,7 @@
 // Temporal Dead Zone (TDZ) for 'a' - Cannot access 'a' before initialization
-console.log(a); 
-console.log(b);
-console.log(c);
+console.log(a); // TDZ for 'a'
+console.log(b); // TDZ for 'b'
+console.log(c); // TDZ for 'c'
 let a = 10 // Cannot access 'a' before initialization
 var b = 20
 const c = 30

@@ -13,6 +13,7 @@ let x = 5 // in memory: x: 5
  resulting in a ReferenceError if accessed before declaration.
 */
 
+
 function foo() {
   console.log('Inside foo') // in memory: foo: <function>
 }
